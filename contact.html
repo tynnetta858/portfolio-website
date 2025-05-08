@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <link rel="shortcut icon" type="image/png" href="img/favicon.PNG"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+</head>
+
+<body>
+    <header class="page-header">
+        <!--add my logo here-->
+        <img src="img/top_logo.png" class="header_logo">
+        <nav class="nav-header__item">
+            <ul role="menubar" class="navigation-list">
+                <li role="presentation">
+                    <a href="index.html" role="menuitem">Home</a>
+                </li>
+                <li role="presentation">
+                    <a href="about.html" role="menuitem">About Me</a>
+                </li>
+                <li role="presentation">
+                    <a href="work.html" role="menuitem">Work</a>
+                </li>
+                <li role="presentation">
+                    <a href="contact.html" role="menuitem">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact-page">
+        <h2 class="form-main-heading">Please fill out form below to contact me</h2>
+
+        <section class="form__section">
+            <h3 class="form-heading">Get in touch</h3>
+            <form action="" method="post" id="contact-form">
+                <label class="standard-label" for="email">Email: </label>
+                <input class="contact_input" type="email" name="email" id="email" required>
+
+                <label class="standard-label" for="tel">Telephone: </label>
+                <input class="contact_input" type="tel" id="tel" required>
+
+                <label class="standard-label" for="message">Message: </label>
+                <textarea class="contact_input messagearea" maxlength="240" name="message" id="message" required></textarea>
+
+                <input type="submit" value ="Send Message" name="" class="submit-button">
+            </form>
+        </section>
+    </main>
+
+    <footer class="page-footer" id="contact-page-footer"> 
+        <div class="contact-grid">
+            <section class="footer__contactinfo" id="contact__grid-item">
+                <p>
+                    Tynnetta Muhammad <br>
+                    4546 Lorem ipsum  <br>
+                    Dallas, Texas 86615 
+                </p>
+            </section>
+            <section class="contact-info">
+                <a href="mailto:tynnetta.muhammad858@gmail.com" class="footer-contact">Contact Me</a>
+                <a href="tel:+1 614 330 1393"> Telephone: +1 614 330 1393</a>
+                <a href="mailto:tynnetta.muhammad858@gmail.com" class="footer-email">Email: tynnetta.muhammad858@gmail.com</a>
+            </section>
+        </div>
+       
+        <div class="social-media-contact">
+            <p>Find me on</p>
+            <a href="#"><img src="img/twitter_icon.svg" alt="Twitter logo"/></a>
+            <a href="#"><img src="img/github_icon.svg" alt="Github logo"/></a>
+            <a href="#"><img src="img/linkedin_icon.svg" alt="LinkedIn logo"/></a>
+        </div>
+        <div class="panda-logo">
+            <img src="img/panda-logo.png" alt="panda logo" >
+        </div>
+    </footer>
+    <script src="js/tota11y.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+</head>
+
+<body>
+    <header class="page-header">
+        <!--add my logo here-->
+        <img src="img/top_logo.png" class="header_logo">
+        <nav class="nav-header__item">
+            <ul role="menubar" class="navigation-list">
+                <li role="presentation">
+                    <a href="index.html" role="menuitem" class="pullUp">Home</a>
+                </li>
+                <li role="presentation">
+                    <a href="about.html" role="menuitem">About Me</a>
+                </li>
+                <li role="presentation">
+                    <a href="work.html" role="menuitem">Work</a>
+                </li>
+                <li role="presentation">
+                    <a href="contact.html" role="menuitem">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main_about">
+        
+        <section class="section-about">
+            <h1 class="h1about">About Me</h1>
+            <p>
+                This page is about myself. This is what I enjoy doing:
+            </p>
+            <ul class="section__aboutme">
+              <li>Watching panda videos</li>
+              <li>Front-end development</li>
+              <li>Back-end development</li>
+              <li>Test driven development</li>
+            </ul>
+        </section>
+
+        <!-- TABLE -->
+        <table>
+            <thead>
+                <tr>
+                    <th  scope="col" class="thmove">Skills</th>
+                    <th  scope="col">Years of Experience</th>
+                    <th  scope="col">Level of Expertise</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr >
+                    <td scope="row" class="col-skills">HTML</td>
+                    <td class="col-years">1</td>
+                    <td class="col-level">Intermediate</td>
+                </tr>
+                <tr>
+                    <td scope="row" class="col-skills">CSS</td>
+                    <td class="col-years">1</td>
+                    <td class="col-level">Beginner</td>
+                </tr>
+                <tr>
+                    <td  scope="row" class="col-skills">JavaScript</td>
+                    <td class="col-years">1</td>
+                    <td class="col-level">Beginner</td>
+                </tr>
+                <tr>
+                    <td  scope="row" class="col-skills">Customer Service</td>
+                    <td class="col-years">10</td>
+                    <td class="col-level">Advanced</td>
+                </tr>
+            </tbody>
+        </table>
+     
+        <a href="files/cv.pdf" class="button" download>Download my CV</a>
+    </main>   
+    <section>
+        <img src="img/bitmap.svg" alt="panda with flowers" class="panda_flower">
+    </section>
+    <section>
+        <img src="img/panda(1).svg" alt="panda with flowers" class="panda_woods">
+    </section>
+
+    <!-- add footer class to ALL pages -->
+    <footer class="page-footer"> 
+        <p>Find me on</p>
+        <div class="social-media">
+            <a href="#"><img src="img/twitter_icon.svg" alt="Twitter logo"/></a>
+            <a href="#"><img src="img/github_icon.svg" alt="Github logo"/></a>
+            <a href="#"><img src="img/linkedin_icon.svg" alt="LinkedIn logo"/></a>
+            <div class="panda-logo">
+                <img src="img/panda-logo.png" alt="panda logo" >
+            </div>
+        </div>
+    </footer>
+    <script src="js/tota11y.min.js"></script>
+</body>
+
+</html>
