@@ -60,10 +60,6 @@ a:focus {
   background-color: rgb(206, 192, 213);
 }
 
-img .header_logo{
-  align-self: left;
-}
-
 .page-header .nav-header__item:last-child{
   flex-grow: 1;
   text-align: right;
