@@ -18,7 +18,7 @@ header/footer background: #CEC0D5;
   --formpurple: rgba(225, 206, 226, 0.439);
   --darkPink: rgb(201, 28, 167);
   --white: rgb(255, 255, 255);
-  --red: rgb(255, 0, 0);
+  --black:  rgba(0, 0, 0, 0.886);
   --darkorange: rgb(169, 52, 9);
   --blue: rgb(0, 0, 255);
   --boldFont: 700;
@@ -55,13 +55,12 @@ a {
 
 /* :link, :visited, :hover, :active */
 a:visited {
-  color: var(--red);
+  color: var(--black);
 }
 
 a:hover {
   
   color: var(--darkpurple);
-  font-size: 1.5em;
   text-decoration: none;
 }
 
@@ -112,6 +111,10 @@ img .header_logo{
 
 li .presentation {
   text-decoration: none;
+}
+
+li:hover {
+   font-size: 1.5em;
 }
 
 /***** FOOTER *****/
@@ -564,7 +567,7 @@ transition-property: opacity;
   75% {color: var(--darkpurple);}
   100% {color: var(--darkGreen);}
 }
-.h1work {
+.h1work, .h1about {
   animation-name: color-change;
   animation-duration: 6s;
   animation-timing-function: ease-in-out;
@@ -572,23 +575,6 @@ transition-property: opacity;
   animation-direction: alternate;
 }
 
-
-@keyframes move-header {
-  0% {transform: translate(-20px, -20px); color:var(--darkGreen);}
-  25% {color: var(--lightGreen);}
-  25% {color:var(--darkPink);}
-  75% {color: var(--darkpurple);}
-  100% {transform: translate(0); color:var(--darkGreen);}  
-}
-.h1about {
-  animation-name: move-header;
-  animation-duration: 3s;
-  animation-timing-function: ease-out;
-  animation-iteration-count: 1;
-  animation-direction: normal;
-  animation-timing-function: linear;
-  animation-fill-mode: both;
-}
 
 @keyframes move-img {
   0% {transform: translate(0px, -8px);}
